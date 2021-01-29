@@ -125,11 +125,7 @@ class XcoKeypad extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: <Widget>[
         new FlatButton(
-            child: Text(".",
-                style: TextStyle(
-                    fontSize: 30,
-                    color: Colors.blueGrey,
-                    fontWeight: FontWeight.normal)),
+            child: Icon(Icons.backspace),
             onPressed: () => onTapePadButton("."),
             padding: EdgeInsets.all(20.0)),
         new FlatButton(
