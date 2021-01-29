@@ -1,7 +1,9 @@
-name: key_pad
+name: xco_keypad
 description: Key Pad customize
+repository: https://github.com/xcodevsci/xco_key_pad.git
+
 version: 0.0.1
-author:
+author: TINA K. Arouna (xcodevs.startup@gmail.com)
 homepage:
 
 environment:
